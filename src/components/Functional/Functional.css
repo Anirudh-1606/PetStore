@@ -1,0 +1,21 @@
+.bg {
+	background-color: #181a27;
+	height: 30vh;
+	border-radius: 30px;
+	display: flex;
+}
+.bg p {
+	padding-left: 20px;
+	padding-top: 50px;
+}
+.carosuel {
+	background-color: #703ddb;
+	height: inherit;
+	width: 30vw;
+	border-radius: 30px;
+}
+.slider {
+	color: white;
+	padding: 20px 40px;
+	height: 25vh;
+}

@@ -1,0 +1,30 @@
+.navbar-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	padding: 10px 0;
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 1;
+}
+
+.links {
+	align-content: center;
+	display: flex;
+	justify-content: space-evenly;
+
+	width: 50vw;
+}
+
+.links a {
+	text-decoration: none;
+	color: inherit;
+}
+.btn {
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	border-radius: 7px;
+}

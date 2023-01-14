@@ -1,0 +1,75 @@
+.banner {
+	padding-top: 3vh;
+}
+.main {
+	padding-top: 10vh;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.main p {
+	font-size: 18px;
+	font-weight: 400;
+}
+.main-img {
+	display: flex;
+	justify-content: center;
+}
+.main-img img {
+	height: 100%;
+	width: 100%;
+}
+.ratings {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+}
+.ratings p {
+	font-size: 16px;
+}
+.yellow {
+	height: 15vh;
+	border-radius: 15px;
+	background-color: #ffda55;
+	width: 4vw;
+	margin-right: 20px;
+}
+.btns {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.btns button {
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+}
+.service-btn {
+	color: white;
+	font-weight: 400;
+	background-color: brown;
+	background: rgb(94, 122, 198);
+	background: linear-gradient(
+		90deg,
+		rgba(94, 122, 198, 1) 0%,
+		rgba(140, 96, 210, 1) 35%,
+		rgba(219, 101, 71, 1) 100%
+	);
+}
+.schedule-btn {
+	background-color: white;
+	text-decoration: underline;
+	font-weight: 600;
+}
+.log {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.log img {
+	height: 60px;
+}
